@@ -2,7 +2,7 @@
 
 This is a docker image for the Solidity browser.
 
-Currently the solidity browser has no tags or releases. Please build your own image to make sure you are on the latest code.
+Currently the solidity browser has no tags or releases. Please build your own image to make sure you're on the latest code.
 
 ## Building
 
