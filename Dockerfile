@@ -9,7 +9,8 @@ RUN apt-get update && \
 RUN mkdir -p /usr/src/browser-solidity
 WORKDIR /usr/src/browser-solidity
 
-RUN git clone https://github.com/ethereum/browser-solidity.git .
+RUN git clone https://github.com/ethereum/browser-solidity.git . &&\
+    git reset --hard 3448ce4be10f894ac6cc278d5ab9ca9131216c0f
 RUN npm install && \
     npm run build
 
